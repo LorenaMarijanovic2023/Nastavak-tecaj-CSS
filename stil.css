@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.sve {
+  display: flex;  
+  flex-direction: column;
+}
+
+.navigacija-u-zaglavlju {
+  background-color: rgb(140, 0, 255);
+  word-spacing: 2em;
+  padding: 2em;
+}
+.ct {
+  word-spacing: 0;
+}
+
+.poveznica-navigacije:link, .poveznica-navigacije:visited {
+  text-decoration: none;
+  font-size: 5em;
+  color: rgb(217, 255, 0);
+}
+
+.poveznica-navigacije:hover, .poveznica-navigacije:active {
+  color: rgb(255, 0, 0);
+  padding: .2em;
+  background-color: white;
+}
+
+.glavniNaslov {
+  background-color: yellow;
+  padding: .2em;
+}
+
+.h1naslov {
+  color: rgb(102, 81, 194);
+  font-size: 5em;
+  text-shadow: .02em .02em red;
+}
+
+.sadrzaj {
+  background-color: rgb(140, 0, 255);
+  color: white;
+}
+
+.naslovZa_slike {
+  font-size: 4em;
+  padding: 0;
+  color: rgb(255, 247, 0);
+}
+
+.slikaNaslov {
+  width: 100%;
+  padding: .5em;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+}
+
+.triParagrafa {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 846px) {
+  .navigacija-u-zaglavlju {
+    display: flex;
+    flex-direction: column;
+    padding: .2em 0;
+  }
+  .poveznica-navigacije:link, .poveznica-navigacije:visited {
+    font-size: 6vw;
+    background-color: black;
+    color:aliceblue;
+  }
+  .poveznica-navigacije:hover, .poveznica-navigacije:active {
+    color: rgb(255, 0, 0);
+    padding: .2em;
+    background-color: white;
+  }
+  .ct {
+    padding-bottom: .1em;
+  }
+  .h1naslov {
+    font-size: 6vw;
+  }
+  .naslovZa_slike {
+    font-size: 9vw;
+    padding: .1em;
+  }
+  .slikaNaslov {
+    text-align: left;
+    font-size: 5vw;
+  }
+  .slika {
+    width: 100%;
+  }
+  .stil-prijelom {
+    color: green;
+  }
+  .kraj {
+    background-color: black;
+    color: aqua;
+  }
+}
